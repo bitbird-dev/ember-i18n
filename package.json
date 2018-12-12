@@ -1,6 +1,6 @@
 {
   "name": "ember-i18n",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "Internationalization for Ember",
   "directories": {
     "doc": "doc",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jamesarosen/ember-i18n.git"
+    "url": "https://github.com/bitbird-dev/ember-i18n.git"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
