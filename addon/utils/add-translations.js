@@ -1,4 +1,5 @@
 import Ember from "ember";
+import merge from "deepmerge";
 
 const assign = Ember.assign || Ember.merge;
 
@@ -12,5 +13,5 @@ export default function addTranslations(locale, newTranslations, owner) {
     owner.register(key, existingTranslations);
   }
 
-  assign(existingTranslations, newTranslations);
+  assign(existingTranslations, merge(existingTranslations, newTranslations));
 }
